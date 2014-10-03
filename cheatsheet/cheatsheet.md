@@ -1,6 +1,6 @@
 #Cheatsheet for Enterprise Linux
 
-##Git repo lokaal
+##Git repo
 * cd /c:/Users/Ruben/Documents/Github/
 * git clone https://github.com/holvoetje/Enterprise-Linux.git
 * cd Enterprise-Linux/
