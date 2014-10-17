@@ -15,4 +15,12 @@
 * vagrant reload
 
 ---
-* rpm -ql wordpress ->Wat geïnstalleerd ?
+* rpm -ql wordpress : Wat geïnstalleerd ?
+
+Filezilla
+* ip server
+* user: root
+* pw: vagrant
+* poort: 22
+
+/etc/wordpress/vp-config.php
