@@ -13,7 +13,6 @@
 ## Aanpassingen in vagrantfile
 
 * vagrant reload
-* 
 
 ---
-*rpm -ql wordpress ->Wat geïnstalleerd ?
+* rpm -ql wordpress ->Wat geïnstalleerd ?
