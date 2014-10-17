@@ -18,7 +18,7 @@
 * rpm -ql wordpress : Wat geïnstalleerd ?
 
 Filezilla
-* ip server
+* ip server: 192.168.56.x
 * user: root
 * pw: vagrant
 * poort: 22
