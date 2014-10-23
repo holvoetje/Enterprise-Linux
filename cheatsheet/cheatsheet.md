@@ -16,8 +16,7 @@
 | git commit -m "message" | Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message. |
 | git status | List which files are staged, unstaged, and untracked. |
 | git log | Display the entire commit history using the default format. For customization see additional options. |
-| git diff | Show unstaged changes between your index and working 
-directory. |
+| git diff | Show unstaged changes between your index and working directory. |
 | UNDOING CHANGES |
 | git revert commit | Create new commit that undoes all of the changes made in commit, then apply it to the current branch.|
 | git reset file | Remove file from the staging area, but leave the working directory unchanged. This unstages a file without overwriting any changes. |
