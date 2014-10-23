@@ -1,5 +1,8 @@
 # Labo 3: Troubleshooting checklist
 ---
+- Used tutorials:
+      - http://ask.xmodulo.com/configure-static-ip-address-centos7.html      
+      - http://www.cyberciti.biz/faq/howto-install-linux-apache-mariadb-php-lamp-stack-on-centos7-rhel7/
 
 - [ ] Are the services running? (Apache, mariaDB, firewall)
       - [ ] `systemctl list-units --type service|grep 'httpd\|mariadb\|firewalld'`
@@ -10,7 +13,7 @@
 - [ ] Test the Apache service.
       - [ ] Check IP-address with `ip a` and surf to `https://'IP-Address'`
 
-- [ ] Configure the correct IP-Address (http://ask.xmodulo.com/configure-static-ip-address-centos7.html)
+- [ ] Configure the correct IP-Address
       - [ ] `gedit /etc/sysconfig/network-scripts/ifcfg-enp0s3`
       - [ ] Change these settings:
           - BOOTPROTO="static"
