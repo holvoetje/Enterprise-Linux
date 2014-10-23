@@ -10,7 +10,7 @@
 - [ ] Test the Apache service.
       - [ ] Check IP-address with `ip a` and surf to `https://'IP-Address'`
 
-- [ ] Configure the correct IP-Address
+- [ ] Configure the correct IP-Address (http://ask.xmodulo.com/configure-static-ip-address-centos7.html)
       - [ ] `gedit /etc/sysconfig/network-scripts/ifcfg-enp0s3`
       - [ ] Change these settings:
           - BOOTPROTO="static"
