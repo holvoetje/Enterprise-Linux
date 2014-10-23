@@ -49,7 +49,8 @@
       - [ ] `sudo yum install mariadb mariadb-server` (install service)
       - [ ] `sudo systemctl start mariadb` (start service)
       - [ ] Install mysql through secure installation:
-            - `sudo mysql_secure_installation` > `Enter` > `Enter password` > `Re-enter password` > `Enter`
+            - `sudo mysql_secure_installation` > `Enter` > `Enter password` > 
+              `Re-enter password` > `Enter`
       - [ ] `sudo systemctl enable mariadb` (start service at boot of machine)
 
 
