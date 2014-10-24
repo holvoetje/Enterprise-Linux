@@ -47,6 +47,7 @@
 | vagrant gem | Install Vagrant plugins via RubyGems. |
 | vagrant package | Create a distribution of the VM you have running. |
 | vagrant <command> –help | Command that will provide man pages for a vagrant command. |
+| vagrant rdp | set up RDP with a Windows machine
 
 ---
 * rpm -ql wordpress : Wat geïnstalleerd ?
