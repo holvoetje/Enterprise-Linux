@@ -50,6 +50,10 @@
 
 *To know which package to install*
 * yum provides *bin/dig
+  * /bin
+  * /sbin
+  * /usr/bin
+  * /usr/sbin
 
 ---
 * rpm -ql wordpress : Wat geïnstalleerd ?
