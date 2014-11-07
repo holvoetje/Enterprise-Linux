@@ -48,6 +48,9 @@
 | vagrant package | Create a distribution of the VM you have running. |
 | vagrant <command> –help | Command that will provide man pages for a vagrant command. |
 
+*To know which package to install*
+* yum provides *bin/dig
+
 ---
 * rpm -ql wordpress : Wat geïnstalleerd ?
 
