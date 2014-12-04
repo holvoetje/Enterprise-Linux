@@ -1,4 +1,6 @@
-# Checklist Samba - Ruben Holvoet
+# Checklist/Sheat sheet Samba - Ruben Holvoet
+
+## Checklist
 
 * Use `netstat -a` to check network settings.
 * Try pinging (localhost, ...).
@@ -15,9 +17,9 @@
 * Use `smbclient -L` to get a list of shares.
 * Check logs > `smbd -l /var/log/samba` & `nmbd -l /var/log/samba`.
 
-# Cheatsheet for Samba - Ruben Holvoet
+## Cheat sheet
 
-## SAMBA commando's
+### SAMBA commando's
 
 | Commando | Beschrijving |
 |--------|--------|
