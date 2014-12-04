@@ -1,4 +1,4 @@
-# Checklist/Sheat sheet Samba - Ruben Holvoet
+# Checklist/Cheat sheet Samba - Ruben Holvoet
 
 ## Checklist
 
