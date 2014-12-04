@@ -17,6 +17,7 @@
 * Use `smbclient -L` to get a list of shares.
 * Check logs > `smbd -l /var/log/samba` & `nmbd -l /var/log/samba`.
 
+\n
 ## Cheat sheet
 
 ### SAMBA commando's
