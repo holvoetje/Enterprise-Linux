@@ -1,4 +1,4 @@
-# Cheatsheet for Enterprise Linux
+# Cheatsheet for Enterprise Linux (Samba) - Ruben Holvoet
 
 ## SAMBA commando's
 
