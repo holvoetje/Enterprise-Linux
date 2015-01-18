@@ -106,10 +106,10 @@ Filezilla
 ## journalctl commando's (logfiles)
 
 1. Check if this folder exists: `/var/log/journal`
-	    if not -> `mkdir -p /var/log/journal`
-2. Start journal -> `sudo journalctl -f -b -p err -o verbose`
-	    -f = telkens updaten
-	    -b = enkel logs van current boot
-	    -p err = enkel de messages tonen met priority levels ERROR en erger
-	    -o verbose = all details the journal has about each entry (user credential info, SELinux bits, ...)
-	    -u httpd.service = enkel van de httpd service
+2. if not -> `mkdir -p /var/log/journal`
+3. Start journal -> `sudo journalctl -f -b -p err -o verbose`
+* -f = telkens updaten
+* -b = enkel logs van current boot
+* -p err = enkel de messages tonen met priority levels ERROR en erger
+* -o verbose = all details the journal has about each entry (user credential info, SELinux bits, ...)
+* -u httpd.service = enkel van de httpd service
