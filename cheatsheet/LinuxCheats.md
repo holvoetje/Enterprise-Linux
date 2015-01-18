@@ -77,7 +77,7 @@ Commando's | Uitleg
 --------------|----------------
 ```dig @192.0.2.2 pu001.linuxlab.net``` | vraagt A record op
 ```dig @192.0.2.2 pu001.linuxlab.net NS``` | vraagt NS record op
-```dig @192.0.2.2 pu001.linuxlab.net NS +short``` | vraagt NS record op (ip adres only)
+```dig @192.0.2.2 pu001.linuxlab.net NS +short``` | vraagt NS record op (ip address only)
 `sudo named-checkconf /etc/named.conf`| check config file for mistakes
 `/var/named/'zonename'`| zone folder location: past forward and backwards here
 
