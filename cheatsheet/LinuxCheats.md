@@ -41,7 +41,7 @@ Commando's | Uitleg
 Folder/file| Naam | Uitleg
 --------------|----------------|-------------
 file |```host_vars/nameserver```| variabelen bruikbaar in de rest van het ansible project
-file |```inventory_dev```| apparaten opgesomt.
+file |```inventory_dev```| apparaten opgesomd
 folder|```./roles```| hier horen alle rollen van je machine : beginnen met een KLEINE letter
 folder|```./roles/common```| hier horen je standaard zaken zoals selinux, firewall,...
 folder|```./roles/'rol'/tasks```| hier hoort de main.yml (Yet another markup language)
