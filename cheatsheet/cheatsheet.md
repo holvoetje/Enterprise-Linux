@@ -82,3 +82,23 @@ Filezilla
 |vi /etc/samba/smb.conf| edit configuration|
 |testparm| check an smb.conf configuration file for internal correctness|
 |getsebool -a `|` grep samba | samba sebools |
+
+## SELinux commando's
+
+| Commando | Beschrijving |
+|--------|--------|
+| /usr/sbin/sestatus | shows the status of SELinux |
+| cat /etc/selinux/config | shows the SELinux config |
+| semanage port -l `| grep http | lists the http ports that are managed by SELinux |
+| getsebool -a | lists all of the SEbools |
+| setsebool [boolean] [0´|1] (-P to make it permanent) | sebool instellen | 
+| cat /var/log/messages | see the SELinux errors that occured |
+| chcon --reference /var/www/html/ /var/www/html/index.html | verander het context type van index.html naar hetzelfde type als de map html |
+| restorecon -vR /var/www/html/ | verander context van de map html (+ inhoud) naar de default waarde |
+| cat /etc/selinux/targeted/contexts/files/file_contexts (and other files in that directory) | list the default context types |
+| ls -Z /var/www/ | list items with their context type |
+| semanage fcontext -a -e /var/www/ /foo/ |	add the type of /var/www/ to /foo/, daarna `restorecon -vR /foo/` uitvoeren |
+| setenforce 0 | set SELinux to permissive mode (to see errors of all the layers behind a problem) |
+| setenforce 1 | set SELinux to enforcing mode |
+| vi /etc/selinux/config and set SELINUX=permissive | SELINUX=permissive zetten |
+| yum install xorg-x11-xauth policycoreutils-gui bitmap-fixed-fonts, then ssh -X into the box and run system-config-selinux | sets up and starts a gui for SELinux |
