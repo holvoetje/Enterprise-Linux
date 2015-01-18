@@ -102,3 +102,14 @@ Filezilla
 | setenforce 1 | set SELinux to enforcing mode |
 | vi /etc/selinux/config and set SELINUX=permissive | SELINUX=permissive zetten |
 | yum install xorg-x11-xauth policycoreutils-gui bitmap-fixed-fonts, then ssh -X into the box and run system-config-selinux | sets up and starts a gui for SELinux |
+
+## journalctl commando's (logfiles)
+
+1. Check if this folder exists: `/var/log/journal`
+	    if not -> `mkdir -p /var/log/journal`
+2. Start journal -> `sudo journalctl -f -b -p err -o verbose`
+	    -f = telkens updaten
+	    -b = enkel logs van current boot
+	    -p err = enkel de messages tonen met priority levels ERROR en erger
+	    -o verbose = all details the journal has about each entry (user credential info, SELinux bits, ...)
+	    -u httpd.service = enkel van de httpd service
