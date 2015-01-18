@@ -89,9 +89,9 @@ Filezilla
 |--------|--------|
 | /usr/sbin/sestatus | shows the status of SELinux |
 | cat /etc/selinux/config | shows the SELinux config |
-| semanage port -l `| grep http | lists the http ports that are managed by SELinux |
+| semanage port -l \| grep http | lists the http ports that are managed by SELinux |
 | getsebool -a | lists all of the SEbools |
-| setsebool [boolean] [0´|1] (-P to make it permanent) | sebool instellen | 
+| setsebool [boolean] [0\|1] (-P to make it permanent) | sebool instellen | 
 | cat /var/log/messages | see the SELinux errors that occured |
 | chcon --reference /var/www/html/ /var/www/html/index.html | verander het context type van index.html naar hetzelfde type als de map html |
 | restorecon -vR /var/www/html/ | verander context van de map html (+ inhoud) naar de default waarde |
