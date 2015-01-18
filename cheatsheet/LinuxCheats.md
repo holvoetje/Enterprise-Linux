@@ -33,7 +33,7 @@ Commando's | Uitleg
 ```git add .``` | voeg bestanden toe voor commit
 ```git commit -m "uitleg aanpassing"``` | git committen
 ```git push origin master``` | Push naar bitbucket/github
-```git pull origin master``` | Push naar bitbucket/github
+```git pull origin master``` | Pull van bitbucket/github
 
 ##Anible Roles
 [Ansible Modules](http://docs.ansible.com/modules_by_category.html)
